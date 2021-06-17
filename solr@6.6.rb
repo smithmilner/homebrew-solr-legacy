@@ -9,7 +9,7 @@ class SolrAT66 < Formula
 
   keg_only :versioned_formula
 
-  depends_on :java
+  depends_on "openjdk"
 
   skip_clean "example/logs"
 
